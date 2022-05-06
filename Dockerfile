@@ -12,7 +12,7 @@ wget \
 tzdata && \
 ln -fs /usr/share/zoneinfo/Europe/Stockholm /etc/localtime && \
 dpkg-reconfigure tzdata && \
-wget -o - https://www.hls-proxy.com/downloads/8.0.7/hls-proxy-8.0.7.linux-x64.zip -O hlsproxy.zip && \
+wget -o - https://www.hls-proxy.com/downloads/8.1.9/hls-proxy-8.1.9.linux-x64.zip -O hlsproxy.zip && \
 unzip hlsproxy.zip -d /opt/hlsp/ && \
 rm hlsproxy.zip && \
 apt-get -y remove unzip wget && \
